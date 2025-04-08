@@ -1,6 +1,7 @@
 {
   "v2ex": {
     "redirect": "v2ex-share",
+    "type": "hottest",
     "name": "V2EX",
     "column": "tech",
     "home": "https://v2ex.com/",
