@@ -15,6 +15,7 @@ const Time = {
 export const originSources = {
   "v2ex": {
     name: "V2EX",
+    type: "hottest",
     color: "slate",
     home: "https://v2ex.com/",
     sub: {
