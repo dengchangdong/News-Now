@@ -46,7 +46,6 @@
   "coolapk": {
     "title": "今日最热",
     "name": "酷安",
-    "type": "hottest",
     "column": "tech",
     "home": "https://coolapk.com",
     "color": "green",
@@ -310,7 +309,6 @@
   },
   "producthunt": {
     "name": "Product Hunt",
-    "type": "hottest",
     "column": "tech",
     "home": "https://www.producthunt.com/",
     "color": "red",
@@ -366,7 +364,6 @@
   },
   "bilibili-ranking": {
     "name": "哔哩哔哩",
-    "type": "hottest",
     "disable": "cf",
     "column": "china",
     "home": "https://www.bilibili.com",

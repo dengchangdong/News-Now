@@ -52,7 +52,6 @@ export const originSources = {
   },
   "coolapk": {
     name: "酷安",
-    type: "hottest",
     column: "tech",
     color: "green",
     title: "今日最热",
@@ -248,7 +247,6 @@ export const originSources = {
     name: "Product Hunt",
     color: "red",
     column: "tech",
-    type: "hottest",
     home: "https://www.producthunt.com/",
   },
   "github": {
@@ -283,7 +281,6 @@ export const originSources = {
         title: "排行榜",
         column: "china",
         disable: "cf",
-        type: "hottest",
         interval: Time.Common,
       },
     },
