@@ -52,6 +52,7 @@ export const originSources = {
   },
   "coolapk": {
     name: "酷安",
+    type: "hottest",
     column: "tech",
     color: "green",
     title: "今日最热",
@@ -147,6 +148,7 @@ export const originSources = {
   },
   "cankaoxiaoxi": {
     name: "参考消息",
+    type: "hottest",
     color: "red",
     column: "world",
     interval: Time.Common,
@@ -247,6 +249,7 @@ export const originSources = {
     name: "Product Hunt",
     color: "red",
     column: "tech",
+    type: "hottest",
     home: "https://www.producthunt.com/",
   },
   "github": {
@@ -281,6 +284,7 @@ export const originSources = {
         title: "排行榜",
         column: "china",
         disable: "cf",
+        type: "hottest",
         interval: Time.Common,
       },
     },
@@ -307,7 +311,6 @@ export const originSources = {
     type: "hottest",
     column: "finance",
     color: "blue",
-    type: "realtime",
     home: "https://www.jin10.com",
   },
   "baidu": {
@@ -330,7 +333,7 @@ export const originSources = {
       },
       hot: {
         title: "今日最热",
-        type: "hottest",
+        type: "realtime",
         interval: Time.Common,
         home: "https://linux.do/hot",
       },
@@ -338,6 +341,7 @@ export const originSources = {
   },
   "ghxi": {
     name: "果核剥壳",
+    type: "hottest",
     column: "china",
     color: "yellow",
     home: "https://www.ghxi.com/",

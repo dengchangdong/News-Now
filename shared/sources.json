@@ -46,6 +46,7 @@
   "coolapk": {
     "title": "今日最热",
     "name": "酷安",
+    "type": "hottest",
     "column": "tech",
     "home": "https://coolapk.com",
     "color": "green",
@@ -168,6 +169,7 @@
   },
   "cankaoxiaoxi": {
     "name": "参考消息",
+    "type": "hottest",
     "column": "world",
     "home": "https://china.cankaoxiaoxi.com",
     "color": "red",
@@ -309,6 +311,7 @@
   },
   "producthunt": {
     "name": "Product Hunt",
+    "type": "hottest",
     "column": "tech",
     "home": "https://www.producthunt.com/",
     "color": "red",
@@ -364,6 +367,7 @@
   },
   "bilibili-ranking": {
     "name": "哔哩哔哩",
+    "type": "hottest",
     "disable": "cf",
     "column": "china",
     "home": "https://www.bilibili.com",
@@ -390,7 +394,7 @@
   },
   "jin10": {
     "name": "金十数据",
-    "type": "realtime",
+    "type": "hottest",
     "column": "finance",
     "home": "https://www.jin10.com",
     "color": "blue",
@@ -425,7 +429,7 @@
   },
   "linuxdo-hot": {
     "name": "LINUX DO",
-    "type": "hottest",
+    "type": "realtime",
     "disable": "cf",
     "column": "tech",
     "home": "https://linux.do/hot",
@@ -436,6 +440,7 @@
   "ghxi": {
     "name": "果核剥壳",
     "column": "china",
+    "type": "hottest",
     "home": "https://www.ghxi.com/",
     "color": "yellow",
     "interval": 600000
