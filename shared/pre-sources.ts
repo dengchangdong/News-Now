@@ -280,13 +280,6 @@ export const originSources = {
         column: "china",
         type: "hottest",
       },
-      "ranking": {
-        title: "排行榜",
-        column: "china",
-        disable: "cf",
-        type: "hottest",
-        interval: Time.Common,
-      },
     },
   },
   "kuaishou": {
@@ -320,25 +313,6 @@ export const originSources = {
     type: "hottest",
     home: "https://www.baidu.com",
   },
-  "linuxdo": {
-    name: "LINUX DO",
-    column: "tech",
-    color: "slate",
-    home: "https://linux.do/",
-    disable: "cf",
-    sub: {
-      latest: {
-        title: "最新",
-        home: "https://linux.do/latest",
-      },
-      hot: {
-        title: "今日最热",
-        type: "realtime",
-        interval: Time.Common,
-        home: "https://linux.do/hot",
-      },
-    },
-  },
   "ghxi": {
     name: "果核剥壳",
     type: "hottest",
@@ -346,18 +320,10 @@ export const originSources = {
     color: "yellow",
     home: "https://www.ghxi.com/",
   },
-  "smzdm": {
-    name: "什么值得买",
-    column: "china",
-    color: "red",
-    type: "hottest",
-    home: "https://www.smzdm.com",
-  },
   "nowcoder": {
     name: "牛客",
     column: "china",
     color: "blue",
-    type: "hottest",
     home: "https://www.nowcoder.com",
   },
   "sspai": {
@@ -395,7 +361,6 @@ export const originSources = {
       },
       hot: {
         title: "最热",
-        type: "hottest",
         interval: Time.Common,
         home: "https://www.chongbuluo.com/forum.php?mod=guide&view=hot",
       },
