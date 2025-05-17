@@ -11,6 +11,7 @@
   },
   "v2ex-share": {
     "name": "V2EX",
+    "type": "hottest",
     "column": "tech",
     "home": "https://v2ex.com/",
     "color": "slate",
@@ -365,6 +366,16 @@
     "interval": 600000,
     "title": "热门视频"
   },
+  "bilibili-ranking": {
+    "name": "哔哩哔哩",
+    "type": "hottest",
+    "disable": "cf",
+    "column": "china",
+    "home": "https://www.bilibili.com",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "排行榜"
+  },
   "kuaishou": {
     "name": "快手",
     "type": "hottest",
@@ -384,7 +395,7 @@
   },
   "jin10": {
     "name": "金十数据",
-    "type": "hottest",
+    "type": "realtime",
     "column": "finance",
     "home": "https://www.jin10.com",
     "color": "blue",
@@ -398,9 +409,16 @@
     "color": "blue",
     "interval": 600000
   },
+  "ghxi": {
+    "name": "果核剥壳",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://www.ghxi.com/",
+    "color": "yellow",
+    "interval": 600000
+  },
   "nowcoder": {
     "name": "牛客",
-    "type": "hottest",
     "column": "china",
     "home": "https://www.nowcoder.com",
     "color": "blue",
@@ -450,7 +468,6 @@
   },
   "chongbuluo-hot": {
     "name": "虫部落",
-    "type": "hottest",
     "column": "china",
     "home": "https://www.chongbuluo.com/forum.php?mod=guide&view=hot",
     "color": "green",

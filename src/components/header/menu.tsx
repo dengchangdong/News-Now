@@ -51,6 +51,7 @@ export function Menu() {
             }}
           >
             <ol className="bg-base bg-op-70! backdrop-blur-md p-2 rounded-lg color-base text-base">
+              <ThemeToggle />
               {enableLogin && (loggedIn
                 ? (
                     <li onClick={logout}>
@@ -64,7 +65,6 @@ export function Menu() {
                       <span>Github 账号登录</span>
                     </li>
                   ))}
-              <ThemeToggle />
             </ol>
           </motion.div>
         </div>

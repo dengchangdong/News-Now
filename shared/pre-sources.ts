@@ -280,6 +280,13 @@ export const originSources = {
         column: "china",
         type: "hottest",
       },
+      "ranking": {
+        title: "排行榜",
+        column: "china",
+        disable: "cf",
+        type: "hottest",
+        interval: Time.Common,
+      },
     },
   },
   "kuaishou": {
@@ -301,9 +308,9 @@ export const originSources = {
   },
   "jin10": {
     name: "金十数据",
-    type: "hottest",
     column: "finance",
     color: "blue",
+    type: "realtime",
     home: "https://www.jin10.com",
   },
   "baidu": {
@@ -312,6 +319,12 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://www.baidu.com",
+  },
+  "ghxi": {
+    name: "果核剥壳",
+    column: "china",
+    color: "yellow",
+    home: "https://www.ghxi.com/",
   },
   "nowcoder": {
     name: "牛客",

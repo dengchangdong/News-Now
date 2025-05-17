@@ -49,7 +49,7 @@ export function Header() {
             <p>News</p>
             <p className="mt--1">
               <span className="color-primary-6">N</span>
-              <span>ow</span>
+              <span>OW</span>
             </p>
           </span>
         </Link>

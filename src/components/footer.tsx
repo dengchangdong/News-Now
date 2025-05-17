@@ -1,7 +1,9 @@
 export function Footer() {
   return (
     <>
-      <span>Products of NewsNow</span>
+      <span>
+        <span>© 2025 News NOW</span>
+      </span>
     </>
   )
 }
