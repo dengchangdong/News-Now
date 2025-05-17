@@ -15,7 +15,7 @@ import { CardWrapper } from "./card"
 import { currentSourcesAtom } from "~/atoms"
 
 const AnimationDuration = 200
-const WIDTH = 350
+const WIDTH = 450
 export function Dnd() {
   const [items, setItems] = useAtom(currentSourcesAtom)
   const [parent] = useAutoAnimate({ duration: AnimationDuration })
